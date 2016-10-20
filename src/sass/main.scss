@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+
+h1 {
+  width: 1000px;
+  padding-top: 55px;
+  padding-bottom: 15px;
+  padding-left: 170px;
+  margin: auto;
+  font-weight: 700;
+  font-size: 35px;
+  letter-spacing: .75px;
+}
+
+.containter {
+}
+
+  .ind {
+      width: 300px;
+      float: left;
+      text-align: center;
+      padding: 35px 10px;
+      display: inline-block;
+
+    .picture {
+      width: 100%;
+    }
+
+    .name {
+      font-size: 15px;
+      font-weight: bold;
+      padding-top: 17px;
+      text-transform: uppercase;
+      position: relative;
+
+      a{
+        text-decoration: none;
+        display: inline-table;
+      }
+
+      a:after {
+        content: "";
+        border-bottom: 0.12em solid green;
+        display: table-caption;
+        caption-side: bottom;
+        position: relative;
+        margin-bottom:-1.65em;
+        padding: 2px;
+       }
+    }
+    .email {
+      font-size: 12px;
+      text-transform: uppercase;
+      color: lightgrey;
+      padding-bottom: 23px;
+      padding-top: 20px;
+    }
+
+    .address {
+      font-size: 15px;
+      line-height: 23px;
+      text-transform: capitalize;
+      color: grey;
+      font-weight: lighter;
+      font-family: 'Molengo', sans-serif;
+    }
+
+    .ssn {
+      font-size: 12px;
+      padding-top: 30px;
+      color: green;
+      filter: blur(3px);
+    }
+    .ssn:hover{
+      filter: none;
+    }
+  }
