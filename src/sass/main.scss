@@ -16,15 +16,17 @@ h1 {
 }
 
 .containter {
+    overflow: auto;
+    height: 1200px;
 }
 
 .ind {
     width: 300px;
+    height: 400px;
     float: left;
     text-align: center;
     padding: 35px 10px;
     display: inline-block;
-    overflow: auto;
 
   .picture {
     width: 100%;
