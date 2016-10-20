@@ -10,4 +10,4 @@
 - `$.ajax`: used to pull data from an API
 - `promise`: address asynchronous timing that allows other functions to run. Different from success in that the function is not dependent on the call. Promise allows the call to run with the function.
 
-Following is a link to the [Internal Company Directory](http://tiy-gracelee-form-builder.surge.sh/)
+Following is a link to the [Internal Company Directory](tiy-gracelee-user-data.surge.sh)
